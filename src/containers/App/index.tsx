@@ -1,11 +1,8 @@
 import React, {FC} from 'react';
+import Router from './Router';
 
 const App: FC = () => {
-  const onLogIn = () => {
-    console.log('log in')
-  }
-
-  return <div><button type="button" onClick={onLogIn}>Log in</button></div>
+  return <Router loading={false} />
 }
 
 export default App;
