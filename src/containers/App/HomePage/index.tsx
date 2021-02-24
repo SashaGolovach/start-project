@@ -3,6 +3,7 @@ import React, {FC} from 'react';
 const App: FC = () => {
   const onLogOut = () => {
     console.log('log out')
+    // signoutRedirect()
   }
 
   const accessToken = localStorage.getItem('accessToken');
